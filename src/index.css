@@ -1,0 +1,88 @@
+* {
+  font-family: fantasy;
+  font-size: larger;
+  margin: 0.25rem;
+  padding: 0.25rem;
+
+}
+
+body,
+body > div {
+  height: 100vh;
+  width: 100vw;
+}
+
+#container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#container > div {
+  display: flex;
+}
+
+#main-section {
+  flex-grow: 1;
+}
+
+#main-section > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.red {
+  background-image: url("https://i.pinimg.com/222x/f2/1b/01/f21b01a29a7993d379fc75bbb1d312c7.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: white;
+}
+
+.blue {
+  background-image: url("https://cdn.justcandy.com/product_images/mmd01072-dark-blue-m-ms-milk-chocolate-candies/57ec3dda6170705230002137/large_thumb.jpg?c=1484814651");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: white;
+}
+
+.yellow{
+  background-image: url("https://cdn.shopify.com/s/files/1/2028/7269/products/Yellow_M_M_s_Chocolate_Candy.jpg?v=1547507406");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: black;
+}
+
+.green {
+  background-image: url("https://cdn.shopify.com/s/files/1/0005/4522/6812/products/bdc3b9e87c30d3d48d2d7da94a0d5284_580x.jpg?v=1571710092");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: black;
+}
+
+.home {
+  color: rgb(255, 247, 0);
+  background-image: url("https://www.thestreet.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTkyNjU3NDIwNjMwMTA3NTcy/mnms-purple_kl_092822.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid purple;
+}
+
+#navbar {
+  padding: 2em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  font-size: small;
+  justify-self: center;
+}
+
+h1 {
+  text-align: center;
+}
